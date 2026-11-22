@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>굳있말 말긃</title>
+<style>
+  :root {
+    --bg: #f7f7f9;
+    --card: #ffffff;
+    --text: #1f2330;
+    --muted: #6b7080;
+    --border: #d9dce5;
+    --accent: #3b5bdb;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181f;
+      --card: #20232d;
+      --text: #eceef4;
+      --muted: #9aa0b4;
+      --border: #343848;
+      --accent: #748ffc;
+      --accent-text: #11131a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 16px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { text-align: center; margin: 0 0 24px; font-size: 28px; }
+  .search { display: flex; gap: 8px; }
+  .search input {
+    flex: 1;
+    padding: 12px 14px;
+    font-size: 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+    color: var(--text);
+  }
+  .search input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .search button {
+    padding: 12px 22px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: var(--accent);
+    color: var(--accent-text);
+    cursor: pointer;
+  }
+  .search button:hover { opacity: 0.9; }
+  #results {
+    margin-top: 24px;
+    min-height: 120px;
+    padding: 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  #results .placeholder { color: var(--muted); }
+  #results pre { margin: 0; white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; }
+  #results pre.error { color: #e03131; }
+</style>
+</head>
+<body>
+<main>
+  <h1>굳있말 말긃</h1>
+
+  <form class="search" id="searchForm">
+    <input type="text" id="query" placeholder="자바스크립트 코드 입력 (예: 1 + 2, new Date())" autocomplete="off">
+    <button type="submit" id="searchBtn">찾기</button>
+  </form>
+
+  <section id="results" aria-live="polite">
+    <span class="placeholder">코드 실행 결과가 여기에 표시됩니다.</span>
+  </section>
+</main>
+
+<script>
+  const form = document.getElementById('searchForm');
+  const input = document.getElementById('query');
+  const results = document.getElementById('results');
+
+  function show(text, cls) {
+    results.textContent = '';
+    const pre = document.createElement('pre');
+    pre.className = cls || '';
+    pre.textContent = text;
+    results.appendChild(pre);
+  }
+
+  function format(v) {
+    if (v === undefined) return 'undefined';
+    if (typeof v === 'string') return v;
+    if (typeof v === 'function' || typeof v === 'symbol') return String(v);
+    try { return JSON.stringify(v, null, 2); } catch (e) { return String(v); }
+  }
+
+  function runCode(code) {
+    const logs = [];
+    const origLog = console.log;
+    // console.log 출력도 결과 영역에 표시
+    console.log = function () {
+      logs.push(Array.prototype.map.call(arguments, format).join(' '));
+      origLog.apply(console, arguments);
+    };
+
+    let value, failed = false;
+    try {
+      try {
+        // 먼저 "식(expression)"으로 실행 (예: 1+2, new Date())
+        value = new Function('return (' + code + '\n);')();
+      } catch (e) {
+        if (!(e instanceof SyntaxError)) throw e;
+        // 식이 아니면 "문장(statement)"으로 실행 (예: for 문, 여러 줄 코드)
+        value = new Function(code)();
+      }
+    } catch (err) {
+      failed = true;
+      value = err;
+    } finally {
+      console.log = origLog;
+    }
+
+    let out = logs.join('\n');
+    if (failed) {
+      out += (out ? '\n' : '') + '오류: ' + (value && value.message ? value.message : value);
+    } else if (value !== undefined || !out) {
+      out += (out ? '\n' : '') + '→ ' + format(value);
+    }
+    show(out, failed ? 'error' : '');
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const code = input.value.trim();
+    if (!code) {
+      results.textContent = '';
+      const s = document.createElement('span');
+      s.className = 'placeholder';
+      s.textContent = '실행할 자바스크립트 코드를 입력해 주세요.';
+      results.appendChild(s);
+      return;
+    }
+    runCode(code);
+  });
+</script>
+</body>
+</html>
