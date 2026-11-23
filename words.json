@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "word": "달나눔",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "분량",
+          "homonymNo": 1,
+          "definition": "수효, 무게 따위의 많고 적음이나 부피의 크고 작은 정도."
+        }
+      ]
+    },
+    {
+      "word": "달힘",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "역량",
+          "homonymNo": 1,
+          "definition": "어떤 일을 해낼 수 있는 힘."
+        },
+        {
+          "id": 2,
+          "refWord": "역량",
+          "homonymNo": 2,
+          "definition": "힘의 분량."
+        }
+      ]
+    },
+    {
+      "word": "부리쌀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "역량",
+          "homonymNo": 3,
+          "definition": "토목이나 건축 따위의 공사를 할 때 쓰는 양식."
+        }
+      ]
+    },
+    {
+      "word": "맡나누다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "할당",
+          "homonymNo": 1,
+          "definition": "몫을 갈라 나눔. 또는 그 몫."
+        }
+      ]
+    },
+    {
+      "word": "박재다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "측정",
+          "homonymNo": 1,
+          "definition": "양, 무게, 길이, 거리, 정도 따위를 잼. 기계나 장치를 사용하여 재기도 한다. 헤아려 결정함."
+        }
+      ]
+    },
+    {
+      "word": "길재다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "측정",
+          "homonymNo": 2,
+          "definition": "차나 배 따위가 지나온 거리를 잼."
+        }
+      ]
+    }
+  ]
+}
