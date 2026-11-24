@@ -215,7 +215,7 @@
         throw new Error('words.json에서 단어를 찾지 못했습니다. 파일 내용을 확인해 주세요.');
       }
       loaded = true;
-      setStatus('사전 ' + ENTRIES.length + '개 항목을 불러왔습니다.', false);
+      setStatus('', false);
       if (input.value.trim()) runSearch();
     })
     .catch(function (err) {
