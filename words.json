@@ -71,6 +71,771 @@
           "definition": "차나 배 따위가 지나온 거리를 잼."
         }
       ]
+    },
+    {
+      "word": "남",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "나무",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "짚",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "지팡이",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "줄",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "사람",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "행",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "수레",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "큰볕",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "태양",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "빛꽃",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "태양",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "수덥다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "예쁘다",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "아름답다",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 3,
+          "refWord": "멋지다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "마쁘다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "맛있다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "카프다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "(성적으로)매력적이다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "하섭다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "(난이도가)어렵다",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "(기세가)매섭다",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 3,
+          "refWord": "(느낌이나 인상이)무섭다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "가덥다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "(관계가)가깝다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "가텁다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "(관계가)가깝다",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "손",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "자",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "쥐",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "자",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "소",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "축",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "윷",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "축",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "범",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "인",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "고",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "인",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "미",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "묘",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "토",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "묘",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "일",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "영",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "뱀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "사",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "혜",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "사",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "모",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "오",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "임",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "오",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "걸",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "미",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "빈",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "미",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "휘",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "곤",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "닭",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "유",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "포",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "유",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "개",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "술",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "월",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "술",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "도",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "해",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "호",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "해",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "날",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "갑",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "새",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "을",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "이",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "불",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "병",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "못",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "정",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "뭇",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "무",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "틀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "기",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "법",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "별",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "경",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "흉",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "죄",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "학",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "임",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "한",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "계",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "건",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "굿",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "감",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "문",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "간",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "문",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "석",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "손",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "땅",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "곤",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "옹",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "태",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "낫",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "약",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "놓",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "소반",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "대",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "홀",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "피",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "혈맥",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "찍",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "점",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "꼭",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "과녁",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 2,
+          "refWord": "마루",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 3,
+          "refWord": "꼭대기",
+          "homonymNo": 0,
+          "definition": ""
+        },
+        {
+          "id": 4,
+          "refWord": "우듬지",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "봇",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "잔",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "인",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "임금",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "새달",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "초승달",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "빌",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "제사",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
+    },
+    {
+      "word": "박",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "바가지",
+          "homonymNo": 0,
+          "definition": ""
+        }
+      ]
     }
   ]
 }
