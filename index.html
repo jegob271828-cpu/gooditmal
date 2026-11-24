@@ -33,8 +33,10 @@
     background: var(--accent); color: var(--accent-text); cursor: pointer;
   }
   .search button:hover { opacity: 0.9; }
+  #status { margin: 8px 2px 0; color: var(--muted); font-size: 13px; }
+  #status.error { color: #e03131; }
   #results {
-    margin-top: 24px; min-height: 120px; padding: 16px; background: var(--card);
+    margin-top: 16px; min-height: 120px; padding: 16px; background: var(--card);
     border: 1px solid var(--border); border-radius: 8px;
   }
   #results .placeholder { color: var(--muted); }
@@ -56,6 +58,7 @@
     <input type="text" id="query" placeholder="검색어를 입력하세요" autocomplete="off">
     <button type="submit" id="searchBtn">찾기</button>
   </form>
+  <div id="status">사전을 불러오는 중…</div>
 
   <section id="results" aria-live="polite">
     <span class="placeholder">검색 결과가 여기에 표시됩니다.</span>
@@ -69,9 +72,15 @@
   var form = document.getElementById('searchForm');
   var input = document.getElementById('query');
   var results = document.getElementById('results');
+  var statusEl = document.getElementById('status');
 
   function norm(s) {
-    return String(s).normalize('NFC').toLowerCase();
+    return String(s == null ? '' : s).normalize('NFC').toLowerCase();
+  }
+
+  function setStatus(text, isError) {
+    statusEl.textContent = text;
+    statusEl.className = isError ? 'error' : '';
   }
 
   function message(text) {
@@ -84,6 +93,7 @@
 
   // text를 parent에 넣되, q와 일치하는 부분은 <mark>로 강조
   function appendHighlighted(parent, text, q) {
+    text = String(text);
     var i = norm(text).indexOf(norm(q));
     if (i === -1) {
       parent.appendChild(document.createTextNode(text));
@@ -96,7 +106,7 @@
     parent.appendChild(document.createTextNode(text.slice(i + q.length)));
   }
 
-  // 표제어 또는 대응 단어(분량, 역량 등)에 검색어가 들어 있으면 일치
+  // 표제어 또는 대응 단어에 검색어가 들어 있으면 일치
   function matches(entry, q) {
     var nq = norm(q);
     if (norm(entry.word).indexOf(nq) !== -1) return true;
@@ -135,7 +145,7 @@
         var label = sense.refWord + (sense.homonymNo != null ? sense.homonymNo : '');
         appendHighlighted(ref, label, q);
         li.appendChild(ref);
-        li.appendChild(document.createTextNode(sense.definition));
+        li.appendChild(document.createTextNode(sense.definition || ''));
         ol.appendChild(li);
       });
       box.appendChild(ol);
@@ -144,27 +154,74 @@
     });
   }
 
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
+  function runSearch() {
     var q = input.value.trim();
     if (!q) { message('검색어를 입력해 주세요.'); return; }
     if (!loaded) { message('사전을 불러오는 중입니다. 잠시 후 다시 시도해 주세요.'); return; }
     search(q);
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    runSearch();
   });
 
+  // 여러 형식의 JSON을 모두 받아들입니다.
+  //  1) {"entries":[{word, senses:[{refWord, homonymNo, definition}]}]}
+  //  2) [{word, senses:[...]}]
+  //  3) {"남":["나무"], ...}
+  function toEntries(d) {
+    var list = null;
+    if (Array.isArray(d)) list = d;
+    else if (d && Array.isArray(d.entries)) list = d.entries;
+
+    if (list) {
+      return list.filter(function (e) {
+        return e && e.word != null && Array.isArray(e.senses);
+      });
+    }
+
+    if (d && typeof d === 'object') {
+      return Object.keys(d).map(function (k) {
+        var v = Array.isArray(d[k]) ? d[k] : [d[k]];
+        return {
+          word: k,
+          senses: v.map(function (x) {
+            return { refWord: String(x), homonymNo: null, definition: '' };
+          })
+        };
+      });
+    }
+    return [];
+  }
+
   // words.json 불러오기 (index.html과 같은 폴더에 있어야 합니다)
-  fetch('words.json')
+  var WORDS_URL = 'words.json';
+
+  fetch(WORDS_URL + '?v=' + Date.now(), { cache: 'no-store' })
     .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' - ' + r.url);
+      return r.text();
     })
-    .then(function (d) {
-      ENTRIES = d.entries || [];
+    .then(function (t) {
+      var d;
+      try {
+        d = JSON.parse(t);
+      } catch (e) {
+        throw new Error('JSON 형식 오류: ' + e.message);
+      }
+      ENTRIES = toEntries(d);
+      if (ENTRIES.length === 0) {
+        throw new Error('words.json에서 단어를 찾지 못했습니다. 파일 내용을 확인해 주세요.');
+      }
       loaded = true;
+      setStatus('사전 ' + ENTRIES.length + '개 항목을 불러왔습니다.', false);
+      if (input.value.trim()) runSearch();
     })
     .catch(function (err) {
       console.error('words.json 로드 실패:', err);
-      message('words.json을 불러오지 못했습니다. 파일 위치와 이름을 확인해 주세요.');
+      setStatus('불러오기 실패: ' + err.message, true);
+      message('words.json을 불러오지 못했습니다. 위의 빨간 글씨를 확인해 주세요.');
     });
 </script>
 </body>
