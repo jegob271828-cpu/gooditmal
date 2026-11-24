@@ -1,0 +1,643 @@
+[
+  {
+    "saenamal": [
+      "남"
+    ],
+    "meanings": [
+      {
+        "word": "나무",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "짚"
+    ],
+    "meanings": [
+      {
+        "word": "지팡이",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "줄"
+    ],
+    "meanings": [
+      {
+        "word": "사람",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "행"
+    ],
+    "meanings": [
+      {
+        "word": "수레",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "큰볕",
+      "빛꽃"
+    ],
+    "meanings": [
+      {
+        "word": "태양",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "수덥다"
+    ],
+    "meanings": [
+      {
+        "word": "예쁘다",
+        "number": 0
+      },
+      {
+        "word": "아름답다",
+        "number": 0
+      },
+      {
+        "word": "멋지다",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "마쁘다"
+    ],
+    "meanings": [
+      {
+        "word": "맛있다",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "카프다"
+    ],
+    "meanings": [
+      {
+        "word": "매력적이다",
+        "number": 0,
+        "note": "성적으로"
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "하섭다"
+    ],
+    "meanings": [
+      {
+        "word": "어렵다",
+        "number": 0,
+        "note": "난이도가"
+      },
+      {
+        "word": "매섭다",
+        "number": 0,
+        "note": "기세가"
+      },
+      {
+        "word": "무섭다",
+        "number": 0,
+        "note": "느낌이나 인상이"
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "가덥다",
+      "가텁다"
+    ],
+    "meanings": [
+      {
+        "word": "가깝다",
+        "number": 0,
+        "note": "관계가"
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "손",
+      "쥐"
+    ],
+    "meanings": [
+      {
+        "word": "자",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "소",
+      "윷"
+    ],
+    "meanings": [
+      {
+        "word": "축",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "범",
+      "고"
+    ],
+    "meanings": [
+      {
+        "word": "인",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "미",
+      "토"
+    ],
+    "meanings": [
+      {
+        "word": "묘",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "일",
+      "영"
+    ],
+    "meanings": [
+      {
+        "word": "진",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "뱀",
+      "혜"
+    ],
+    "meanings": [
+      {
+        "word": "사",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "모",
+      "임"
+    ],
+    "meanings": [
+      {
+        "word": "오",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "걸",
+      "빈"
+    ],
+    "meanings": [
+      {
+        "word": "미",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "휘",
+      "곤"
+    ],
+    "meanings": [
+      {
+        "word": "신",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "닭",
+      "포"
+    ],
+    "meanings": [
+      {
+        "word": "유",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "개",
+      "월"
+    ],
+    "meanings": [
+      {
+        "word": "술",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "도",
+      "호"
+    ],
+    "meanings": [
+      {
+        "word": "해",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "날"
+    ],
+    "meanings": [
+      {
+        "word": "갑",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "새"
+    ],
+    "meanings": [
+      {
+        "word": "을",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "불"
+    ],
+    "meanings": [
+      {
+        "word": "병",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "못"
+    ],
+    "meanings": [
+      {
+        "word": "정",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "뭇"
+    ],
+    "meanings": [
+      {
+        "word": "무",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "틀"
+    ],
+    "meanings": [
+      {
+        "word": "기",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "별"
+    ],
+    "meanings": [
+      {
+        "word": "경",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "흉"
+    ],
+    "meanings": [
+      {
+        "word": "신",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "학"
+    ],
+    "meanings": [
+      {
+        "word": "임",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "한"
+    ],
+    "meanings": [
+      {
+        "word": "계",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "한"
+    ],
+    "meanings": [
+      {
+        "word": "건",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "굿"
+    ],
+    "meanings": [
+      {
+        "word": "감",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "문"
+    ],
+    "meanings": [
+      {
+        "word": "간",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "석"
+    ],
+    "meanings": [
+      {
+        "word": "진",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "다"
+    ],
+    "meanings": [
+      {
+        "word": "손",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "새"
+    ],
+    "meanings": [
+      {
+        "word": "이",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "땅"
+    ],
+    "meanings": [
+      {
+        "word": "곤",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "옹"
+    ],
+    "meanings": [
+      {
+        "word": "태",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "낫"
+    ],
+    "meanings": [
+      {
+        "word": "약",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "놓"
+    ],
+    "meanings": [
+      {
+        "word": "소반",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "대"
+    ],
+    "meanings": [
+      {
+        "word": "홀",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "틀"
+    ],
+    "meanings": [
+      {
+        "word": "법",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "피"
+    ],
+    "meanings": [
+      {
+        "word": "혈맥",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "찍"
+    ],
+    "meanings": [
+      {
+        "word": "점",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "꼭"
+    ],
+    "meanings": [
+      {
+        "word": "과녁",
+        "number": 0
+      },
+      {
+        "word": "마루",
+        "number": 0
+      },
+      {
+        "word": "꼭대기",
+        "number": 0
+      },
+      {
+        "word": "우듬지",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "문"
+    ],
+    "meanings": [
+      {
+        "word": "문",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "봇"
+    ],
+    "meanings": [
+      {
+        "word": "잔",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "인"
+    ],
+    "meanings": [
+      {
+        "word": "임금",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "새달"
+    ],
+    "meanings": [
+      {
+        "word": "초승달",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "빌"
+    ],
+    "meanings": [
+      {
+        "word": "제사",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "흉"
+    ],
+    "meanings": [
+      {
+        "word": "죄",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "saenamal": [
+      "박"
+    ],
+    "meanings": [
+      {
+        "word": "바가지",
+        "number": 0
+      }
+    ]
+  }
+]
