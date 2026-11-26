@@ -1,202 +1,248 @@
-[
-  {
-    "id": "천왕1",
-    "new_words": [
-      "한인"
-    ],
-    "original": "천왕",
-    "sense": 1,
-    "definition": "[불교] 욕계나 색계 따위의 온갖 하늘의 임금. [역사] 상고 시대에, 수호신을 이르던 말. [문학] ‘환웅’을 높여 이르던 말."
-  },
-  {
-    "id": "천주1",
-    "new_words": [
-      "한인"
-    ],
-    "original": "천주",
-    "sense": 1,
-    "definition": "[가톨릭] 가톨릭에서, 신봉하는 유일신. 천지의 창조주이며 전지전능하고 영원한 존재로서, 우주 만물을 섭리로 다스린다. [불교] ‘대자재천’을 달리 이르는 말. 하늘의 주인이라는 뜻이다. [불교] 제천의 왕."
-  },
-  {
-    "id": "천주2",
-    "new_words": [
-      "한대"
-    ],
-    "original": "천주",
-    "sense": 2,
-    "definition": "하늘이 무너지지 아니하도록 괴고 있다는 상상의 기둥. [역사] 동헌의 복판을 버티는 기둥을 달리 이르는 말. 천심이 이 기둥을 통하여, 수령이 백성을 다스리는 것을 들여다보고 있다고 하여 이렇게 이른다."
-  },
-  {
-    "id": "천주3",
-    "new_words": [
-      "한대"
-    ],
-    "original": "천주",
-    "sense": 3,
-    "definition": "[음악] 금의 앞면에 있는, 둘레 일곱 치 정도의 둥근기둥."
-  },
-  {
-    "id": "천주4",
-    "new_words": [
-      "한대"
-    ],
-    "original": "천주",
-    "sense": 4,
-    "definition": "[한의] 방광경에 속하는 혈. 뒤 정중선 상의 뒤 머리카락 경계로부터 다섯 푼 위에서 좌우로 각각 한 치 서 푼 되는 곳이다."
-  },
-  {
-    "id": "천주5",
-    "new_words": [
-      "한술"
-    ],
-    "original": "천주",
-    "sense": 5,
-    "definition": "하늘에서 내린 감로. 불로불사의 영약으로 알려져 있다."
-  },
-  {
-    "id": "천주6",
-    "new_words": [
-      "한죔"
-    ],
-    "original": "천주",
-    "sense": 6,
-    "definition": "하늘이 내리는 큰 벌. 하늘을 대신하여 죄지은 사람을 꾸짖으며 벌줌."
-  },
-  {
-    "id": "천주7",
-    "new_words": [
-      "한불"
-    ],
-    "original": "천주",
-    "sense": 7,
-    "definition": "하늘의 주방. 천신이 사자를 시켜 음식물을 보내 주는 일을 비유적으로 이르는 말."
-  },
-  {
-    "id": "천주9",
-    "new_words": [
-      "들줄"
-    ],
-    "original": "천주",
-    "sense": 9,
-    "definition": "어떤 사람을 추천하여 준 사람."
-  },
-  {
-    "id": "신명2",
-    "new_words": [
-      "일몸"
-    ],
-    "original": "신명",
-    "sense": 2,
-    "definition": "몸과 명예를 아울러 이르는 말."
-  },
-  {
-    "id": "신명3",
-    "new_words": [
-      "숨몸"
-    ],
-    "original": "신명",
-    "sense": 3,
-    "definition": "몸과 목숨을 아울러 이르는 말."
-  },
-  {
-    "id": "신명4",
-    "new_words": [
-      "말넋",
-      "숨넋"
-    ],
-    "original": "신명",
-    "sense": 4,
-    "definition": "신의 명령. [가톨릭] 영성의 생명."
-  },
-  {
-    "id": "신명5",
-    "new_words": [
-      "밝넋",
-      "넋밝다"
-    ],
-    "original": "신명",
-    "sense": 5,
-    "definition": "천지의 신령. 신령스럽고 이치에 밝다."
-  },
-  {
-    "id": "신명6",
-    "new_words": [
-      "밝넋"
-    ],
-    "original": "신명",
-    "sense": 6,
-    "definition": "[한의] 정신 의식과 사유 활동. [한의] 생명 활동의 기능."
-  },
-  {
-    "id": "신명7",
-    "new_words": [
-      "어둡넋"
-    ],
-    "original": "신명",
-    "sense": 7,
-    "definition": "신의 가호"
-  },
-  {
-    "id": "신명8",
-    "new_words": [
-      "새벽"
-    ],
-    "original": "신명",
-    "sense": 8,
-    "definition": "날이 밝아 올 무렵."
-  },
-  {
-    "id": "함수1",
-    "new_words": [
-      "물품다"
-    ],
-    "original": "함수",
-    "sense": 1,
-    "definition": "수분을 함유하고 있음."
-  },
-  {
-    "id": "함수2",
-    "new_words": [
-      "부끄럼띠다"
-    ],
-    "original": "함수",
-    "sense": 2,
-    "definition": "부끄러워하는 빛을 띰."
-  },
-  {
-    "id": "함수3",
-    "new_words": [
-      "입씻다"
-    ],
-    "original": "함수",
-    "sense": 3,
-    "definition": "양치질을 함."
-  },
-  {
-    "id": "함수4",
-    "new_words": [
-      "넣셈"
-    ],
-    "original": "함수",
-    "sense": 4,
-    "definition": "[수학] 두 개의 변수 x, y 사이에서, x가 일정한 범위 내에서 값이 변하는 데 따라서 y의 값이 종속적으로 정해질 때, x에 대하여 y를 이르는 말. y가 x의 함수라는 것은 y=f(x)로 표시한다."
-  },
-  {
-    "id": "함수5",
-    "new_words": [
-      "뱃머리"
-    ],
-    "original": "함수",
-    "sense": 5,
-    "definition": "군함의 앞머리."
-  },
-  {
-    "id": "함수6",
-    "new_words": [
-      "솖물"
-    ],
-    "original": "함수",
-    "sense": 6,
-    "definition": "염분이 들어 있는 물."
-  }
-]
+{
+  "entries": [
+    {
+      "word": "한인",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천왕",
+          "homonymNo": 1,
+          "definition": "[불교] 욕계나 색계 따위의 온갖 하늘의 임금. [역사] 상고 시대에, 수호신을 이르던 말. [문학] ‘환웅’을 높여 이르던 말."
+        },
+        {
+          "id": 2,
+          "refWord": "천주",
+          "homonymNo": 1,
+          "definition": "[가톨릭] 가톨릭에서, 신봉하는 유일신. 천지의 창조주이며 전지전능하고 영원한 존재로서, 우주 만물을 섭리로 다스린다. [불교] ‘대자재천’을 달리 이르는 말. 하늘의 주인이라는 뜻이다. [불교] 제천의 왕."
+        }
+      ]
+    },
+    {
+      "word": "한대",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천주",
+          "homonymNo": 2,
+          "definition": "하늘이 무너지지 아니하도록 괴고 있다는 상상의 기둥. [역사] 동헌의 복판을 버티는 기둥을 달리 이르는 말. 천심이 이 기둥을 통하여, 수령이 백성을 다스리는 것을 들여다보고 있다고 하여 이렇게 이른다."
+        },
+        {
+          "id": 2,
+          "refWord": "천주",
+          "homonymNo": 3,
+          "definition": "[음악] 금의 앞면에 있는, 둘레 일곱 치 정도의 둥근기둥."
+        },
+        {
+          "id": 3,
+          "refWord": "천주",
+          "homonymNo": 4,
+          "definition": "[한의] 방광경에 속하는 혈. 뒤 정중선 상의 뒤 머리카락 경계로부터 다섯 푼 위에서 좌우로 각각 한 치 서 푼 되는 곳이다."
+        }
+      ]
+    },
+    {
+      "word": "한술",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천주",
+          "homonymNo": 5,
+          "definition": "하늘에서 내린 감로. 불로불사의 영약으로 알려져 있다."
+        }
+      ]
+    },
+    {
+      "word": "한죔",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천주",
+          "homonymNo": 6,
+          "definition": "하늘이 내리는 큰 벌. 하늘을 대신하여 죄지은 사람을 꾸짖으며 벌줌."
+        }
+      ]
+    },
+    {
+      "word": "한불",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천주",
+          "homonymNo": 7,
+          "definition": "하늘의 주방. 천신이 사자를 시켜 음식물을 보내 주는 일을 비유적으로 이르는 말."
+        }
+      ]
+    },
+    {
+      "word": "들줄",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "천주",
+          "homonymNo": 9,
+          "definition": "어떤 사람을 추천하여 준 사람."
+        }
+      ]
+    },
+    {
+      "word": "일몸",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 2,
+          "definition": "몸과 명예를 아울러 이르는 말."
+        }
+      ]
+    },
+    {
+      "word": "숨몸",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 3,
+          "definition": "몸과 목숨을 아울러 이르는 말."
+        }
+      ]
+    },
+    {
+      "word": "말넋",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 4,
+          "definition": "신의 명령. [가톨릭] 영성의 생명."
+        }
+      ]
+    },
+    {
+      "word": "숨넋",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 4,
+          "definition": "신의 명령. [가톨릭] 영성의 생명."
+        }
+      ]
+    },
+    {
+      "word": "밝넋",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 5,
+          "definition": "천지의 신령. 신령스럽고 이치에 밝다."
+        },
+        {
+          "id": 2,
+          "refWord": "신명",
+          "homonymNo": 6,
+          "definition": "[한의] 정신 의식과 사유 활동. [한의] 생명 활동의 기능."
+        }
+      ]
+    },
+    {
+      "word": "넋밝다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 5,
+          "definition": "천지의 신령. 신령스럽고 이치에 밝다."
+        }
+      ]
+    },
+    {
+      "word": "어둡넋",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 7,
+          "definition": "신의 가호"
+        }
+      ]
+    },
+    {
+      "word": "새벽",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "신명",
+          "homonymNo": 8,
+          "definition": "날이 밝아 올 무렵."
+        }
+      ]
+    },
+    {
+      "word": "물품다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 1,
+          "definition": "수분을 함유하고 있음."
+        }
+      ]
+    },
+    {
+      "word": "부끄럼띠다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 2,
+          "definition": "부끄러워하는 빛을 띰."
+        }
+      ]
+    },
+    {
+      "word": "입씻다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 3,
+          "definition": "양치질을 함."
+        }
+      ]
+    },
+    {
+      "word": "넣셈",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 4,
+          "definition": "[수학] 두 개의 변수 x, y 사이에서, x가 일정한 범위 내에서 값이 변하는 데 따라서 y의 값이 종속적으로 정해질 때, x에 대하여 y를 이르는 말. y가 x의 함수라는 것은 y=f(x)로 표시한다."
+        }
+      ]
+    },
+    {
+      "word": "뱃머리",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 5,
+          "definition": "군함의 앞머리."
+        }
+      ]
+    },
+    {
+      "word": "솖물",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "함수",
+          "homonymNo": 6,
+          "definition": "염분이 들어 있는 물."
+        }
+      ]
+    }
+  ]
+}
