@@ -1,0 +1,422 @@
+{
+  "entries": [
+    {
+      "word": "맞이루다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "합성",
+          "homonymNo": 1,
+          "definition": "둘 이상의 것을 합쳐서 하나를 이룸. [물리] 벡터, 힘 따위의 방향성이 있는 양을 둘 이상 합침. 또는 그런 일. [생명] 생물이 빛이나 유기물, 무기물의 산화에 의하여 얻은 에너지를 이용하여 유기 화합물을 만듦. 또는 그런 작용. [수학] 두 가지 이상의 변환을 거듭 실행함. 또는 그런 일. [화학] 둘 이상의 원소를 화합하여 화합물을 만들거나, 간단한 화합물에서 복잡한 화합물을 만듦. 또는 그런 일. [언어] 둘 이상의 실질 형태소를 결합하여 하나의 단어를 만듦. 또는 그런 일."
+        }
+      ]
+    },
+    {
+      "word": "맞밑",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "합성",
+          "homonymNo": 2,
+          "definition": "[민속] 성질이 서로 맞음. 또는 그 성질. [민속] 암수 두 성이 합함. [민속] 오행역학에서, 성이 서로 맞음. 또는 그 성. 나무와 흙, 불과 흙, 흙과 금 따위가 있다."
+        }
+      ]
+    },
+    {
+      "word": "낮여리다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "나열",
+          "homonymNo": 1,
+          "definition": "마음이 약하고, 됨됨이가 변변하지 못함."
+        }
+      ]
+    },
+    {
+      "word": "촘벌이다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "나열",
+          "homonymNo": 2,
+          "definition": "죽 벌여 놓음. 또는 죽 벌여 있음. 나란히 줄을 지음."
+        }
+      ]
+    },
+    {
+      "word": "곧밝다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "정렬",
+          "homonymNo": 1,
+          "definition": "여자의 지조나 절개가 곧고 굳음."
+        }
+      ]
+    },
+    {
+      "word": "치벌이다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "정렬",
+          "homonymNo": 2,
+          "definition": "가지런하게 줄지어 늘어섬. 또는 그렇게 늘어서게 함. [정보·통신] 데이터를 특정한 조건에 따라 일정한 순서가 되도록 다시 배열하는 일."
+        }
+      ]
+    },
+    {
+      "word": "등더위",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "배열",
+          "homonymNo": 1,
+          "definition": "[한의] 등에서 몹시 열이 나는 증상."
+        }
+      ]
+    },
+    {
+      "word": "짝벌이다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "배열",
+          "homonymNo": 2,
+          "definition": "일정한 차례나 간격에 따라 벌여 놓음. [정보·통신] 동일한 성격의 데이터를 관리하기 쉽도록 하나로 묶는 일."
+        }
+      ]
+    },
+    {
+      "word": "벌이떼",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진열",
+          "homonymNo": 1,
+          "definition": "벌여 놓은 진의 배열."
+        }
+      ]
+    },
+    {
+      "word": "늘어서다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진열",
+          "homonymNo": 2,
+          "definition": "여러 사람에게 보이기 위하여 물건을 죽 벌여 놓음."
+        }
+      ]
+    },
+    {
+      "word": "쿵찢다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "진열",
+          "homonymNo": 3,
+          "definition": "땅이 흔들리고 갈라짐."
+        }
+      ]
+    },
+    {
+      "word": "들벌이다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "열거",
+          "homonymNo": 1,
+          "definition": "여러 가지 예나 사실을 낱낱이 죽 늘어놓음."
+        }
+      ]
+    },
+    {
+      "word": "맞굴",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "압축",
+          "homonymNo": 1,
+          "definition": "하나의 시 두루마리에 실린 시들 가운데에서 가장 잘 지은 시."
+        }
+      ]
+    },
+    {
+      "word": "막줄이다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "압축",
+          "homonymNo": 2,
+          "definition": "물질 따위에 압력을 가하여 그 부피를 줄임. 문장 따위를 줄여 짧게 함. 일정한 범위나 테두리를 줄임."
+        }
+      ]
+    },
+    {
+      "word": "(골)털",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "모발",
+          "homonymNo": 1,
+          "definition": "사람의 몸에 난 털을 통틀어 이르는 말. 사람의 머리털."
+        }
+      ]
+    },
+    {
+      "word": "낮밑",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저질",
+          "homonymNo": 1,
+          "definition": "낮은 품질."
+        }
+      ]
+    },
+    {
+      "word": "밑물",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저질",
+          "homonymNo": 2,
+          "definition": "[지구] 호수, 바다, 늪, 강 따위의 바닥을 이루고 있는 물질. 침전과 퇴적에 의하여 생긴다."
+        }
+      ]
+    },
+    {
+      "word": "목낮다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저급",
+          "homonymNo": 1,
+          "definition": "내용, 품질, 등급, 수준 따위가 낮음."
+        }
+      ]
+    },
+    {
+      "word": "싸줌",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저급",
+          "homonymNo": 2,
+          "definition": "적은 액수의 봉급이나 품삯."
+        }
+      ]
+    },
+    {
+      "word": "낮다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저열",
+          "homonymNo": 1,
+          "definition": "질이 낮고 변변하지 못하다."
+        }
+      ]
+    },
+    {
+      "word": "낮불",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "저열",
+          "homonymNo": 2,
+          "definition": "온도가 낮은 열."
+        }
+      ]
+    },
+    {
+      "word": "소술",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "우주",
+          "homonymNo": 1,
+          "definition": "쇠고기와 술을 아울러 이르는 말."
+        }
+      ]
+    },
+    {
+      "word": "한집",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "우주",
+          "homonymNo": 2,
+          "definition": "무한한 시간과 만물을 포함하고 있는 끝없는 공간의 총체. [물리] 물질과 복사가 존재하는 모든 공간. [천문] 모든 천체를 포함하는 공간."
+        }
+      ]
+    },
+    {
+      "word": "귀대",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "우주",
+          "homonymNo": 3,
+          "definition": "[건설] 건물의 모퉁이에 세운 기둥."
+        }
+      ]
+    },
+    {
+      "word": "앓쪽",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "우주",
+          "homonymNo": 4,
+          "definition": "[역사] 궁중에서 우제를 지낼 때에 쓰던 뽕나무로 만든 신주."
+        }
+      ]
+    },
+    {
+      "word": "배우물",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "물리",
+          "homonymNo": 1,
+          "definition": "모든 사물의 이치. 사물에 대한 이해나 판단의 힘. [물리] 물질의 물리적 성질과 그것이 나타내는 모든 현상, 그리고 그들 사이의 관계나 법칙을 연구하는 학문. 자연 과학의 한 분야이다."
+        }
+      ]
+    },
+    {
+      "word": "주찬",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "봉급",
+          "homonymNo": 1,
+          "definition": "어떤 직장에서 계속적으로 일하는 사람이 그 일의 대가로 정기적으로 받는 일정한 보수."
+        }
+      ]
+    },
+    {
+      "word": "주값",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "급료",
+          "homonymNo": 1,
+          "definition": "일에 대한 대가로 고용주가 지급하는 돈. 월급이나 일급 따위가 있다. [역사] 벼슬아치에게 보수로 쌀을 주던 일. 또는 그 쌀."
+        }
+      ]
+    },
+    {
+      "word": "쌀주다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "급료",
+          "homonymNo": 1,
+          "definition": "일에 대한 대가로 고용주가 지급하는 돈. 월급이나 일급 따위가 있다. [역사] 벼슬아치에게 보수로 쌀을 주던 일. 또는 그 쌀."
+        }
+      ]
+    },
+    {
+      "word": "주쌀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "급료",
+          "homonymNo": 1,
+          "definition": "일에 대한 대가로 고용주가 지급하는 돈. 월급이나 일급 따위가 있다. [역사] 벼슬아치에게 보수로 쌀을 주던 일. 또는 그 쌀."
+        }
+      ]
+    },
+    {
+      "word": "일틀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 1,
+          "definition": "의식의 행사."
+        }
+      ]
+    },
+    {
+      "word": "말틀",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 2,
+          "definition": "식장에서 주최자가 그 식에 대하여 인사로 말함. 또는 그 말."
+        }
+      ]
+    },
+    {
+      "word": "밥일",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 3,
+          "definition": "끼니로 음식을 먹음. 또는 그 음식."
+        }
+      ]
+    },
+    {
+      "word": "먹녘",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 4,
+          "definition": "음식을 먹고 싶어 하는 욕망."
+        }
+      ]
+    },
+    {
+      "word": "먹쏟음",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 5,
+          "definition": "[한의] 음식물에 체하여 설사를 하는 증상."
+        }
+      ]
+    },
+    {
+      "word": "먹쏟기",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 5,
+          "definition": "[한의] 음식물에 체하여 설사를 하는 증상."
+        }
+      ]
+    },
+    {
+      "word": "짜꾸미다",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 6,
+          "definition": "남을 속이기 위하여 거짓으로 꾸밈."
+        }
+      ]
+    },
+    {
+      "word": "꾸미말",
+      "senses": [
+        {
+          "id": 1,
+          "refWord": "식사",
+          "homonymNo": 7,
+          "definition": "듣기 좋게 꾸며서 하는 말."
+        }
+      ]
+    }
+  ]
+}
