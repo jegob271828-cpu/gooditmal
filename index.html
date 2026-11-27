@@ -275,14 +275,51 @@
     message('사전을 불러오지 못했습니다. 위의 빨간 글씨를 확인해 주세요.');
   });
 </script>
-  <footer class="about">
+<footer class="about" style="max-width:800px; margin:40px auto 20px; padding:16px; text-align:center; font-size:0.85rem; color:#666; border-top:1px solid #ddd;">
   <p>굳있말은 낯바뀌말, 새나말, 이루네말, 땅일로 나뉩니다.</p>
-  <ul>
+  <ul style="list-style:none; padding:0; margin:8px 0 0;">
     <li>0이 붙은 단어는 새나말로 바꾼 말입니다.</li>
     <li>1~이 붙은 단어는 낯바뀌말로 바꾼 말입니다.</li>
     <li>이루네말은 사자성어를 뜻합니다.</li>
     <li>땅일은 지명을 의미하며 일부 지명은 제외했습니다.</li>
-  </ul>
+<ul style="display:inline-block; text-align:left; margin:8px 0 0;">
 </footer>
+  <script>
+(function () {
+  const KEY = 'gooditmal-state';
+
+  function save() {
+    try {
+      const state = { scrollY: window.scrollY, fields: {} };
+      document.querySelectorAll('input[id], select[id], textarea[id]').forEach(el => {
+        state.fields[el.id] = el.type === 'checkbox' ? el.checked : el.value;
+      });
+      sessionStorage.setItem(KEY, JSON.stringify(state));
+    } catch (e) {}
+  }
+
+  function restore() {
+    try {
+      const raw = sessionStorage.getItem(KEY);
+      if (!raw) return;
+      const state = JSON.parse(raw);
+      Object.entries(state.fields || {}).forEach(([id, v]) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (el.type === 'checkbox') el.checked = v;
+        else el.value = v;
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+      });
+      window.scrollTo(0, state.scrollY || 0);
+    } catch (e) {}
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') save();
+  });
+  window.addEventListener('pagehide', save);
+  window.addEventListener('load', restore);
+})();
+</script>
 </body>
 </html>
